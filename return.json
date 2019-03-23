@@ -1,0 +1,1160 @@
+{
+    "id": 6879,
+    "name": "Belo Horizonte",
+    "state": "MG",
+    "country": "BR  ",
+    "data": [
+      {
+        "date": "2019-03-23 00:00:00",
+        "date_br": "23/03/2019 00:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 31.4,
+          "direction": "ESE",
+          "directiondegrees": 125.4,
+          "gust": 43.7
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-23 01:00:00",
+        "date_br": "23/03/2019 01:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 29.9,
+          "direction": "ESE",
+          "directiondegrees": 124.2,
+          "gust": 46.6
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-23 02:00:00",
+        "date_br": "23/03/2019 02:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 29.7,
+          "direction": "ESE",
+          "directiondegrees": 121,
+          "gust": 45.8
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-23 03:00:00",
+        "date_br": "23/03/2019 03:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 27.3,
+          "direction": "ESE",
+          "directiondegrees": 122.1,
+          "gust": 41.8
+        },
+        "temperature": {
+          "temperature": 19
+        }
+      },
+      {
+        "date": "2019-03-23 04:00:00",
+        "date_br": "23/03/2019 04:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 26.5,
+          "direction": "ESE",
+          "directiondegrees": 123.2,
+          "gust": 40
+        },
+        "temperature": {
+          "temperature": 19
+        }
+      },
+      {
+        "date": "2019-03-23 05:00:00",
+        "date_br": "23/03/2019 05:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 25.7,
+          "direction": "ESE",
+          "directiondegrees": 124.9,
+          "gust": 40
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-23 06:00:00",
+        "date_br": "23/03/2019 06:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 25.1,
+          "direction": "ESE",
+          "directiondegrees": 126.1,
+          "gust": 35.8
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-23 07:00:00",
+        "date_br": "23/03/2019 07:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 24.5,
+          "direction": "ESE",
+          "directiondegrees": 128.8,
+          "gust": 34.6
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-23 08:00:00",
+        "date_br": "23/03/2019 08:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 23.2,
+          "direction": "ESE",
+          "directiondegrees": 128.9,
+          "gust": 33.2
+        },
+        "temperature": {
+          "temperature": 16
+        }
+      },
+      {
+        "date": "2019-03-23 09:00:00",
+        "date_br": "23/03/2019 09:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 22.8,
+          "direction": "ESE",
+          "directiondegrees": 129.1,
+          "gust": 31.7
+        },
+        "temperature": {
+          "temperature": 16
+        }
+      },
+      {
+        "date": "2019-03-23 10:00:00",
+        "date_br": "23/03/2019 10:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 25.7,
+          "direction": "ESE",
+          "directiondegrees": 125.7,
+          "gust": 28.9
+        },
+        "temperature": {
+          "temperature": 16
+        }
+      },
+      {
+        "date": "2019-03-23 11:00:00",
+        "date_br": "23/03/2019 11:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 25.3,
+          "direction": "ESE",
+          "directiondegrees": 121.6,
+          "gust": 26
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-23 12:00:00",
+        "date_br": "23/03/2019 12:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 23.3,
+          "direction": "ESE",
+          "directiondegrees": 117.5,
+          "gust": 24.2
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-23 13:00:00",
+        "date_br": "23/03/2019 13:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 20.5,
+          "direction": "ESE",
+          "directiondegrees": 114.9,
+          "gust": 19.9
+        },
+        "temperature": {
+          "temperature": 19
+        }
+      },
+      {
+        "date": "2019-03-23 14:00:00",
+        "date_br": "23/03/2019 14:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 19.6,
+          "direction": "E",
+          "directiondegrees": 110.9,
+          "gust": 19.4
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-23 15:00:00",
+        "date_br": "23/03/2019 15:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 17.7,
+          "direction": "E",
+          "directiondegrees": 108.3,
+          "gust": 17.9
+        },
+        "temperature": {
+          "temperature": 24
+        }
+      },
+      {
+        "date": "2019-03-23 16:00:00",
+        "date_br": "23/03/2019 16:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 16.9,
+          "direction": "E",
+          "directiondegrees": 106.6,
+          "gust": 17.9
+        },
+        "temperature": {
+          "temperature": 28
+        }
+      },
+      {
+        "date": "2019-03-23 17:00:00",
+        "date_br": "23/03/2019 17:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 15,
+          "direction": "E",
+          "directiondegrees": 105.7,
+          "gust": 18.2
+        },
+        "temperature": {
+          "temperature": 28
+        }
+      },
+      {
+        "date": "2019-03-23 18:00:00",
+        "date_br": "23/03/2019 18:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 17.6,
+          "direction": "E",
+          "directiondegrees": 104.1,
+          "gust": 19.3
+        },
+        "temperature": {
+          "temperature": 26
+        }
+      },
+      {
+        "date": "2019-03-23 19:00:00",
+        "date_br": "23/03/2019 19:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 18.1,
+          "direction": "E",
+          "directiondegrees": 102.8,
+          "gust": 21.2
+        },
+        "temperature": {
+          "temperature": 24
+        }
+      },
+      {
+        "date": "2019-03-23 20:00:00",
+        "date_br": "23/03/2019 20:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 16.1,
+          "direction": "E",
+          "directiondegrees": 103,
+          "gust": 20
+        },
+        "temperature": {
+          "temperature": 23
+        }
+      },
+      {
+        "date": "2019-03-23 21:00:00",
+        "date_br": "23/03/2019 21:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 17.9,
+          "direction": "E",
+          "directiondegrees": 111.4,
+          "gust": 23.2
+        },
+        "temperature": {
+          "temperature": 22
+        }
+      },
+      {
+        "date": "2019-03-23 22:00:00",
+        "date_br": "23/03/2019 22:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 17.5,
+          "direction": "ESE",
+          "directiondegrees": 114.3,
+          "gust": 23.8
+        },
+        "temperature": {
+          "temperature": 22
+        }
+      },
+      {
+        "date": "2019-03-23 23:00:00",
+        "date_br": "23/03/2019 23:00:00",
+        "rain": {
+          "precipitation": 0.7
+        },
+        "wind": {
+          "velocity": 18.9,
+          "direction": "ESE",
+          "directiondegrees": 112.9,
+          "gust": 26
+        },
+        "temperature": {
+          "temperature": 21
+        }
+      },
+      {
+        "date": "2019-03-24 00:00:00",
+        "date_br": "24/03/2019 00:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 18.2,
+          "direction": "E",
+          "directiondegrees": 112.4,
+          "gust": 31.4
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-24 01:00:00",
+        "date_br": "24/03/2019 01:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 17.4,
+          "direction": "ESE",
+          "directiondegrees": 114.9,
+          "gust": 31.8
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-24 02:00:00",
+        "date_br": "24/03/2019 02:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 18.2,
+          "direction": "ESE",
+          "directiondegrees": 117.7,
+          "gust": 32.2
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-24 03:00:00",
+        "date_br": "24/03/2019 03:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 16.8,
+          "direction": "ESE",
+          "directiondegrees": 118.9,
+          "gust": 31.8
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-24 04:00:00",
+        "date_br": "24/03/2019 04:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 15.5,
+          "direction": "ESE",
+          "directiondegrees": 118.7,
+          "gust": 21.7
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-24 05:00:00",
+        "date_br": "24/03/2019 05:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 15.9,
+          "direction": "ESE",
+          "directiondegrees": 119,
+          "gust": 22.4
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-24 06:00:00",
+        "date_br": "24/03/2019 06:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 14.5,
+          "direction": "ESE",
+          "directiondegrees": 125.9,
+          "gust": 21.4
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-24 07:00:00",
+        "date_br": "24/03/2019 07:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 15.3,
+          "direction": "ESE",
+          "directiondegrees": 124.9,
+          "gust": 19.8
+        },
+        "temperature": {
+          "temperature": 17
+        }
+      },
+      {
+        "date": "2019-03-24 08:00:00",
+        "date_br": "24/03/2019 08:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 15.8,
+          "direction": "ESE",
+          "directiondegrees": 131.6,
+          "gust": 20.3
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-24 09:00:00",
+        "date_br": "24/03/2019 09:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 16.9,
+          "direction": "ESE",
+          "directiondegrees": 127.1,
+          "gust": 20.9
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-24 10:00:00",
+        "date_br": "24/03/2019 10:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 20.6,
+          "direction": "ESE",
+          "directiondegrees": 130.1,
+          "gust": 24.9
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-24 11:00:00",
+        "date_br": "24/03/2019 11:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 19.7,
+          "direction": "ESE",
+          "directiondegrees": 124,
+          "gust": 24.9
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-24 12:00:00",
+        "date_br": "24/03/2019 12:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 18.4,
+          "direction": "ESE",
+          "directiondegrees": 124.9,
+          "gust": 23.5
+        },
+        "temperature": {
+          "temperature": 22
+        }
+      },
+      {
+        "date": "2019-03-24 13:00:00",
+        "date_br": "24/03/2019 13:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 18,
+          "direction": "ESE",
+          "directiondegrees": 118,
+          "gust": 22.1
+        },
+        "temperature": {
+          "temperature": 23
+        }
+      },
+      {
+        "date": "2019-03-24 14:00:00",
+        "date_br": "24/03/2019 14:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 16.6,
+          "direction": "ESE",
+          "directiondegrees": 121.8,
+          "gust": 18.8
+        },
+        "temperature": {
+          "temperature": 25
+        }
+      },
+      {
+        "date": "2019-03-24 15:00:00",
+        "date_br": "24/03/2019 15:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 14.5,
+          "direction": "ESE",
+          "directiondegrees": 128.1,
+          "gust": 15.5
+        },
+        "temperature": {
+          "temperature": 26
+        }
+      },
+      {
+        "date": "2019-03-24 16:00:00",
+        "date_br": "24/03/2019 16:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 13.1,
+          "direction": "SE",
+          "directiondegrees": 138.6,
+          "gust": 14.7
+        },
+        "temperature": {
+          "temperature": 28
+        }
+      },
+      {
+        "date": "2019-03-24 17:00:00",
+        "date_br": "24/03/2019 17:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 13.8,
+          "direction": "SE",
+          "directiondegrees": 141.5,
+          "gust": 13.9
+        },
+        "temperature": {
+          "temperature": 29
+        }
+      },
+      {
+        "date": "2019-03-24 18:00:00",
+        "date_br": "24/03/2019 18:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 16.1,
+          "direction": "SE",
+          "directiondegrees": 139.7,
+          "gust": 15.3
+        },
+        "temperature": {
+          "temperature": 30
+        }
+      },
+      {
+        "date": "2019-03-24 19:00:00",
+        "date_br": "24/03/2019 19:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 16.4,
+          "direction": "SE",
+          "directiondegrees": 137.4,
+          "gust": 16
+        },
+        "temperature": {
+          "temperature": 30
+        }
+      },
+      {
+        "date": "2019-03-24 20:00:00",
+        "date_br": "24/03/2019 20:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 15.8,
+          "direction": "ESE",
+          "directiondegrees": 128.4,
+          "gust": 17.8
+        },
+        "temperature": {
+          "temperature": 28
+        }
+      },
+      {
+        "date": "2019-03-24 21:00:00",
+        "date_br": "24/03/2019 21:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 11.4,
+          "direction": "ESE",
+          "directiondegrees": 120.3,
+          "gust": 18.1
+        },
+        "temperature": {
+          "temperature": 25
+        }
+      },
+      {
+        "date": "2019-03-24 22:00:00",
+        "date_br": "24/03/2019 22:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 15.4,
+          "direction": "ESE",
+          "directiondegrees": 125.7,
+          "gust": 20.5
+        },
+        "temperature": {
+          "temperature": 23
+        }
+      },
+      {
+        "date": "2019-03-24 23:00:00",
+        "date_br": "24/03/2019 23:00:00",
+        "rain": {
+          "precipitation": 0.8
+        },
+        "wind": {
+          "velocity": 16.7,
+          "direction": "ESE",
+          "directiondegrees": 121.2,
+          "gust": 22.7
+        },
+        "temperature": {
+          "temperature": 22
+        }
+      },
+      {
+        "date": "2019-03-25 00:00:00",
+        "date_br": "25/03/2019 00:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 15.8,
+          "direction": "ESE",
+          "directiondegrees": 122.2,
+          "gust": 23.8
+        },
+        "temperature": {
+          "temperature": 21
+        }
+      },
+      {
+        "date": "2019-03-25 01:00:00",
+        "date_br": "25/03/2019 01:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 16.8,
+          "direction": "ESE",
+          "directiondegrees": 114.6,
+          "gust": 24.5
+        },
+        "temperature": {
+          "temperature": 21
+        }
+      },
+      {
+        "date": "2019-03-25 02:00:00",
+        "date_br": "25/03/2019 02:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 18.7,
+          "direction": "E",
+          "directiondegrees": 105,
+          "gust": 25.3
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-25 03:00:00",
+        "date_br": "25/03/2019 03:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 17.4,
+          "direction": "E",
+          "directiondegrees": 95.8,
+          "gust": 23.8
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-25 04:00:00",
+        "date_br": "25/03/2019 04:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 16.5,
+          "direction": "E",
+          "directiondegrees": 94.6,
+          "gust": 22.4
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-25 05:00:00",
+        "date_br": "25/03/2019 05:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 15,
+          "direction": "E",
+          "directiondegrees": 99.9,
+          "gust": 22
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-25 06:00:00",
+        "date_br": "25/03/2019 06:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 13.1,
+          "direction": "E",
+          "directiondegrees": 106.5,
+          "gust": 21.7
+        },
+        "temperature": {
+          "temperature": 19
+        }
+      },
+      {
+        "date": "2019-03-25 07:00:00",
+        "date_br": "25/03/2019 07:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 10.3,
+          "direction": "E",
+          "directiondegrees": 111.2,
+          "gust": 19.5
+        },
+        "temperature": {
+          "temperature": 19
+        }
+      },
+      {
+        "date": "2019-03-25 08:00:00",
+        "date_br": "25/03/2019 08:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 9.8,
+          "direction": "ESE",
+          "directiondegrees": 122.8,
+          "gust": 18.8
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-25 09:00:00",
+        "date_br": "25/03/2019 09:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 10.5,
+          "direction": "ESE",
+          "directiondegrees": 132.8,
+          "gust": 19.2
+        },
+        "temperature": {
+          "temperature": 18
+        }
+      },
+      {
+        "date": "2019-03-25 10:00:00",
+        "date_br": "25/03/2019 10:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 12.2,
+          "direction": "ESE",
+          "directiondegrees": 129.2,
+          "gust": 19.8
+        },
+        "temperature": {
+          "temperature": 20
+        }
+      },
+      {
+        "date": "2019-03-25 11:00:00",
+        "date_br": "25/03/2019 11:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 10.3,
+          "direction": "ESE",
+          "directiondegrees": 125.4,
+          "gust": 19.1
+        },
+        "temperature": {
+          "temperature": 23
+        }
+      },
+      {
+        "date": "2019-03-25 12:00:00",
+        "date_br": "25/03/2019 12:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 7.8,
+          "direction": "ESE",
+          "directiondegrees": 129.6,
+          "gust": 19.9
+        },
+        "temperature": {
+          "temperature": 25
+        }
+      },
+      {
+        "date": "2019-03-25 13:00:00",
+        "date_br": "25/03/2019 13:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 6.7,
+          "direction": "SE",
+          "directiondegrees": 142.8,
+          "gust": 18.1
+        },
+        "temperature": {
+          "temperature": 27
+        }
+      },
+      {
+        "date": "2019-03-25 14:00:00",
+        "date_br": "25/03/2019 14:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 7,
+          "direction": "SE",
+          "directiondegrees": 156,
+          "gust": 18.8
+        },
+        "temperature": {
+          "temperature": 29
+        }
+      },
+      {
+        "date": "2019-03-25 15:00:00",
+        "date_br": "25/03/2019 15:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 7.7,
+          "direction": "SE",
+          "directiondegrees": 149.4,
+          "gust": 18.5
+        },
+        "temperature": {
+          "temperature": 30
+        }
+      },
+      {
+        "date": "2019-03-25 16:00:00",
+        "date_br": "25/03/2019 16:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 8.7,
+          "direction": "SE",
+          "directiondegrees": 141.4,
+          "gust": 18.2
+        },
+        "temperature": {
+          "temperature": 31
+        }
+      },
+      {
+        "date": "2019-03-25 17:00:00",
+        "date_br": "25/03/2019 17:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 10,
+          "direction": "ESE",
+          "directiondegrees": 127.8,
+          "gust": 18.5
+        },
+        "temperature": {
+          "temperature": 32
+        }
+      },
+      {
+        "date": "2019-03-25 18:00:00",
+        "date_br": "25/03/2019 18:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 10.3,
+          "direction": "ESE",
+          "directiondegrees": 119.8,
+          "gust": 19
+        },
+        "temperature": {
+          "temperature": 32
+        }
+      },
+      {
+        "date": "2019-03-25 19:00:00",
+        "date_br": "25/03/2019 19:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 12.3,
+          "direction": "ESE",
+          "directiondegrees": 118,
+          "gust": 20.3
+        },
+        "temperature": {
+          "temperature": 31
+        }
+      },
+      {
+        "date": "2019-03-25 20:00:00",
+        "date_br": "25/03/2019 20:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 11.7,
+          "direction": "E",
+          "directiondegrees": 104.3,
+          "gust": 21
+        },
+        "temperature": {
+          "temperature": 30
+        }
+      },
+      {
+        "date": "2019-03-25 21:00:00",
+        "date_br": "25/03/2019 21:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 11,
+          "direction": "E",
+          "directiondegrees": 90.6,
+          "gust": 19.7
+        },
+        "temperature": {
+          "temperature": 26
+        }
+      },
+      {
+        "date": "2019-03-25 22:00:00",
+        "date_br": "25/03/2019 22:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 12.1,
+          "direction": "E",
+          "directiondegrees": 94.3,
+          "gust": 24.6
+        },
+        "temperature": {
+          "temperature": 24
+        }
+      },
+      {
+        "date": "2019-03-25 23:00:00",
+        "date_br": "25/03/2019 23:00:00",
+        "rain": {
+          "precipitation": 0
+        },
+        "wind": {
+          "velocity": 13,
+          "direction": "E",
+          "directiondegrees": 104.8,
+          "gust": 25.3
+        },
+        "temperature": {
+          "temperature": 23
+        }
+      }
+    ]
+  }
