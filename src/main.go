@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
-
 	advisor "./modules/advisor"
+	facebook "./modules/facebook"
 	utils "./utils"
 )
 
@@ -15,6 +14,6 @@ func main() {
 	forecast := advisor.GetForecast(defaultLocation, minHours, utils.Config.Advisor.Token)
 	data := utils.FilterPeriod(timePeriod, forecast.Data)
 	result := utils.IsCrocsUsable(data)
-
-	fmt.Println(result)
+	message := utils.GetMessage(result)
+	facebook.PostMessage(message, utils.Config.Facebook.Page.ID, utils.Config.Facebook.Page.Token)
 }

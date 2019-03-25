@@ -22,6 +22,12 @@ type Configuration struct {
 	Advisor struct {
 		Token string
 	}
+	Facebook struct {
+		Page struct {
+			ID    string
+			Token string
+		}
+	}
 }
 
 var Config = read()
