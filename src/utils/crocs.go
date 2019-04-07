@@ -3,7 +3,7 @@ package utils
 import (
 	"time"
 
-	advisor "../modules/advisor"
+	types "../types"
 )
 
 const dateFormat = "2006-01-02 15:04:05"
@@ -20,7 +20,7 @@ const (
 	DontUse      CrocsUse = 2
 )
 
-func IsCrocsUsable(data []advisor.ForecastData) CrocsUse {
+func IsCrocsUsable(data []types.ForecastData) CrocsUse {
 
 	sumTemperature := 0
 
@@ -42,13 +42,13 @@ func IsCrocsUsable(data []advisor.ForecastData) CrocsUse {
 
 }
 
-func FilterPeriod(timePeriod int, data []advisor.ForecastData) []advisor.ForecastData {
+func FilterPeriod(timePeriod int, data []types.ForecastData) []types.ForecastData {
 
 	now := time.Now()
 	duration := time.Hour * time.Duration(timePeriod)
 	location, _ := time.LoadLocation(locationCode)
 
-	period := []advisor.ForecastData{}
+	period := []types.ForecastData{}
 	for _, forecast := range data {
 
 		time, _ := time.ParseInLocation(dateFormat, forecast.Date, location)

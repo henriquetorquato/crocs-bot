@@ -28,6 +28,16 @@ type Configuration struct {
 			Token string
 		}
 	}
+	Twitter struct {
+		Consumer struct {
+			Key    string
+			Secret string
+		}
+		Access struct {
+			Token  string
+			Secret string
+		}
+	}
 }
 
 var Config = read()

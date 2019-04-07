@@ -1,16 +1,4 @@
-package advisor
-
-import "encoding/json"
-
-func UnmarshalForecast(data []byte) (Forecast, error) {
-	var r Forecast
-	err := json.Unmarshal(data, &r)
-	return r, err
-}
-
-func (r *Forecast) Marshal() ([]byte, error) {
-	return json.Marshal(r)
-}
+package types
 
 type Forecast struct {
 	ID      int            `json:"id"`
