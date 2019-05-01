@@ -5,7 +5,6 @@ import (
 	"net/url"
 
 	utils "../utils"
-	handler "../utils/error"
 	"github.com/mrjones/oauth"
 )
 
@@ -13,7 +12,11 @@ const twitterLocationBase = "https://api.twitter.com/1.1"
 
 type Twitter struct{}
 
-func (t Twitter) PostMessage(message string) {
+func (f Twitter) Name() string {
+	return "Twitter"
+}
+
+func (t Twitter) PostMessage(message string) bool {
 
 	auth := utils.Config.Twitter
 
@@ -30,15 +33,17 @@ func (t Twitter) PostMessage(message string) {
 		Secret: auth.Access.Secret}
 
 	client, err := consumer.MakeHttpClient(&token)
-	handler.HandleError(err)
+	utils.HandleError(err)
 
 	response, err := client.PostForm(location, content)
-	handler.HandleError(err)
+	utils.HandleError(err)
 
 	defer response.Body.Close()
 
 	if response.StatusCode == 200 {
-		fmt.Println("Twitter")
+		return true
 	}
+
+	return false
 
 }

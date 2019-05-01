@@ -7,23 +7,19 @@ import (
 	"net/http"
 
 	types "../types"
-	handler "../utils/error"
+	utils "../utils"
 )
 
 const advisorLocationBase = "http://apiadvisor.climatempo.com.br/api/v1"
 
 type Advisor struct{}
 
-// GetForecast gets a forecast for the next x hours
+// GetForecast gets a forecast for the next 'timespace' hours in the 'localeID' location
 func (a Advisor) GetForecast(localeID int, timespace int, token string) types.Forecast {
 
 	location := fmt.Sprintf("%s/forecast/locale/%d/hours/%d?token=%s", advisorLocationBase, localeID, timespace, token)
 	response, err := http.Get(location)
-	handler.HandleError(err)
-
-	// if (err != nil) || response.StatusCode != 200 {
-	// 	fmt.Println("KKKKK")
-	// }
+	utils.HandleError(err)
 
 	defer response.Body.Close()
 

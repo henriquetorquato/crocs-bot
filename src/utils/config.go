@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const configFile = "../config.json"
+const configFile = "./config.json"
 
 func read() Configuration {
 	var file, _ = os.Open(configFile)

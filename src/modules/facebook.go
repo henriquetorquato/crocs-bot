@@ -6,14 +6,17 @@ import (
 	"net/url"
 
 	utils "../utils"
-	handler "../utils/error"
 )
 
 const facebookLocationBase = "https://graph.facebook.com"
 
 type Facebook struct{}
 
-func (f Facebook) PostMessage(message string) {
+func (f Facebook) Name() string {
+	return "Facebook"
+}
+
+func (f Facebook) PostMessage(message string) bool {
 
 	auth := utils.Config.Facebook
 
@@ -24,12 +27,14 @@ func (f Facebook) PostMessage(message string) {
 		"access_token": []string{auth.Page.Token}}
 
 	response, err := http.PostForm(location, content)
-	handler.HandleError(err)
+	utils.HandleError(err)
 
 	defer response.Body.Close()
 
 	if response.StatusCode == 200 {
-		fmt.Println("Facebook")
+		return true
 	}
+
+	return false
 
 }
