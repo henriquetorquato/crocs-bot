@@ -35,7 +35,7 @@ func CreatePost() {
 	result := isCrocsUsable(forecast.Data, timePeriod)
 	report := dispatchMessage(result)
 
-	fmt.Println(report)
+	fmt.Println(report.ToString())
 
 }
 
