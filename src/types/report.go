@@ -9,6 +9,7 @@ import (
 type Report struct {
 	Time         time.Time
 	Publications []string
+	Errors       []string
 	Message      string
 }
 

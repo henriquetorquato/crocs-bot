@@ -8,8 +8,10 @@ import (
 const configFile = "./config.json"
 
 func read() Configuration {
-	var file, _ = os.Open(configFile)
+	var file, err = os.Open(configFile)
 	defer file.Close()
+
+	HandleError(err)
 
 	decoder := json.NewDecoder(file)
 	config := Configuration{}
