@@ -35,6 +35,7 @@ func (f Facebook) PostMessage(message string) bool {
 		return true
 	}
 
+	utils.HandleResponse(response)
 	return false
 
 }

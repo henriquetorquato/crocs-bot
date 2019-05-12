@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"fmt"
+	"net/http"
 	"time"
 
 	modules "../modules"
@@ -40,20 +41,22 @@ func CreatePost() {
 }
 
 func dispatchMessage(crocsUse CrocsUse) types.Report {
+
 	message := getMessage(crocsUse)
 	report := types.Report{
 		Time:         time.Now(),
 		Message:      message,
 		Publications: make([]string, 0),
-		Errors:       make([]string, 0)}
+		Errors:       make([]http.Header, 0)}
 
 	for _, platform := range getPlatforms() {
+
 		success := platform.PostMessage(message)
 		if success {
 			report.Publications = append(report.Publications, platform.Name())
-		} else {
-			report.Errors = append(report.Errors, platform.Name())
 		}
+
+		report.Errors = utils.GetErrorHeaders()
 	}
 
 	return report
