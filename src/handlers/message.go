@@ -13,9 +13,11 @@ import (
 const dateFormat = "2006-01-02 15:04:05"
 const locationCode = "America/Sao_Paulo"
 
+// Belo Horizonte
 const defaultLocation = 6879
+
+// Advisor API only returns forecast for the next 72h minimum
 const minHours = 72
-const timePeriod = 6
 
 const maxPrecipitation = 0.7
 const minTemperature = 22
@@ -28,12 +30,12 @@ const (
 	DontUse      CrocsUse = 2
 )
 
-func CreatePost() {
+func CreatePost(period int) {
 
 	advisor := modules.Advisor{}
 	forecast := advisor.GetForecast(defaultLocation, minHours, utils.Config.Advisor.Token)
 
-	result := isCrocsUsable(forecast.Data, timePeriod)
+	result := isCrocsUsable(forecast.Data, period)
 	report := dispatchMessage(result)
 
 	fmt.Println(report.ToString())
