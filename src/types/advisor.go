@@ -1,5 +1,15 @@
 package types
 
+import (
+	"encoding/json"
+)
+
+func UnmarshalAdvisorForecast(data []byte) (Forecast, error) {
+	var r Forecast
+	err := json.Unmarshal(data, &r)
+	return r, err
+}
+
 type Forecast struct {
 	ID      int            `json:"id"`
 	Name    string         `json:"name"`

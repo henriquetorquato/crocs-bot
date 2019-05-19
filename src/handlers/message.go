@@ -6,6 +6,8 @@ import (
 	"time"
 
 	modules "../modules"
+	facebookModule "../modules/facebook"
+	twitterModule "../modules/twitter"
 	types "../types"
 	utils "../utils"
 )
@@ -66,8 +68,8 @@ func dispatchMessage(crocsUse CrocsUse) types.Report {
 
 func getPlatforms() []types.Platform {
 	return []types.Platform{
-		new(modules.Facebook),
-		new(modules.Twitter)}
+		new(facebookModule.Facebook),
+		new(twitterModule.Twitter)}
 }
 
 func getMessage(crocsUse CrocsUse) string {

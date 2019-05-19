@@ -1,7 +1,6 @@
 package modules
 
 import (
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -12,6 +11,7 @@ import (
 
 const advisorLocationBase = "http://apiadvisor.climatempo.com.br/api/v1"
 
+// Advisor exported interface
 type Advisor struct{}
 
 // GetForecast gets a forecast for the next 'timespace' hours in the 'localeID' location
@@ -24,13 +24,7 @@ func (a Advisor) GetForecast(localeID int, timespace int, token string) types.Fo
 	defer response.Body.Close()
 
 	bodyBytes, err := ioutil.ReadAll(response.Body)
-	forecast, err := unmarshalForecast(bodyBytes)
+	forecast, err := types.UnmarshalAdvisorForecast(bodyBytes)
 
 	return forecast
-}
-
-func unmarshalForecast(data []byte) (types.Forecast, error) {
-	var r types.Forecast
-	err := json.Unmarshal(data, &r)
-	return r, err
 }
