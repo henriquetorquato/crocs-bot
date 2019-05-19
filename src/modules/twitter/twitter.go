@@ -44,11 +44,21 @@ func (t Twitter) PostMessage(message string) bool {
 }
 
 func (t Twitter) GetLastPost() types.Post {
+
+	var content string
 	timeline := getUserTimeline(1)
+
+	if len(timeline) > 0 {
+		content = timeline[0].Text
+	} else {
+		content = ""
+	}
+
 	return types.Post{
 		Platform: name,
-		Content:  timeline[0].Text,
+		Content:  content,
 	}
+
 }
 
 func getUserTimeline(size int) types.TwitterTimeline {

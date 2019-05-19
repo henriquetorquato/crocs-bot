@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"fmt"
+	"math/rand"
 	"net/http"
 	"time"
 
@@ -37,16 +38,17 @@ func CreatePost(period int) {
 	advisor := modules.Advisor{}
 	forecast := advisor.GetForecast(defaultLocation, minHours, utils.Config.Advisor.Token)
 
-	result := isCrocsUsable(forecast.Data, period)
-	report := dispatchMessage(result)
+	message := buildMessage(
+		isCrocsUsable(forecast.Data, period))
+
+	report := dispatchMessage(message)
 
 	fmt.Println(report.ToString())
 
 }
 
-func dispatchMessage(crocsUse CrocsUse) types.Report {
+func dispatchMessage(message string) types.Report {
 
-	message := getMessage(crocsUse)
 	report := types.Report{
 		Time:         time.Now(),
 		Message:      message,
@@ -70,17 +72,6 @@ func getPlatforms() []types.Platform {
 	return []types.Platform{
 		new(facebookModule.Facebook),
 		new(twitterModule.Twitter)}
-}
-
-func getMessage(crocsUse CrocsUse) string {
-	switch crocsUse {
-	case DontUse:
-		return "Não."
-	case UseWithSocks:
-		return "Sim, com meias."
-	default:
-		return "Sim!"
-	}
 }
 
 func isCrocsUsable(data []types.ForecastData, timePeriod int) CrocsUse {
@@ -126,5 +117,42 @@ func filterPeriod(timePeriod int, data []types.ForecastData) []types.ForecastDat
 	}
 
 	return period
+
+}
+
+func buildMessage(crocsUse CrocsUse) string {
+
+	var message string
+	var variation []string
+
+	messages := utils.Config.Message
+	variations := utils.Config.Variations
+
+	switch crocsUse {
+	case DontUse:
+		message = messages.DontUse
+		variation = variations.Rain
+	case UseWithSocks:
+		message = messages.UseWithSocks
+		variation = variations.Cold
+	default:
+		message = messages.Use
+		variation = variations.Heat
+	}
+
+	lastPosts := make([]string, 0)
+	for _, platform := range getPlatforms() {
+		lastPost := platform.GetLastPost()
+		lastPosts = append(lastPosts, lastPost.Content)
+	}
+
+	if utils.Contains(lastPosts, message) {
+
+		message = fmt.Sprintf("%s, %s", message,
+			variation[rand.Intn(len(variation))])
+
+	}
+
+	return message
 
 }

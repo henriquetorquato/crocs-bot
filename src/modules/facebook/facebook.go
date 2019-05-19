@@ -47,10 +47,19 @@ func (f Facebook) PostMessage(message string) bool {
 }
 
 func (f Facebook) GetLastPost() types.Post {
+
+	var content string
 	timeline := getUserTimeline(1)
+
+	if len(timeline.Data) > 0 {
+		content = timeline.Data[0].Message
+	} else {
+		content = ""
+	}
+
 	return types.Post{
 		Platform: name,
-		Content:  timeline.Data[0].Message,
+		Content:  content,
 	}
 }
 

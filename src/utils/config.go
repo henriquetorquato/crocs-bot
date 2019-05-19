@@ -20,6 +20,7 @@ func read() Configuration {
 	return config
 }
 
+// Configuration file structure definition
 type Configuration struct {
 	Advisor struct {
 		Token string
@@ -39,6 +40,16 @@ type Configuration struct {
 			Token  string
 			Secret string
 		}
+	}
+	Message struct {
+		Use          string
+		UseWithSocks string
+		DontUse      string
+	}
+	Variations struct {
+		Heat []string
+		Cold []string
+		Rain []string
 	}
 }
 
